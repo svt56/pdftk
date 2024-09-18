@@ -21,3 +21,18 @@ param 3 (optional param): slect pages: 1-5 or 1,3,5,7 (select pge #1 #3 #5 #7) o
 ./jpg-pdf-water.sh 7.pdf 2.pdf 1-3</br>
 ./jpg-pdf-water.sh 7.pdf 2.pdf</br>
 
+## bot_watermark.py</br>
+### bot for telegramm who use jpg-pdf-water.sh and telebot</br>
+in list.txt put teleramm ID's who can send pdf to bot</br>
+in token.tk put telegramm token</br>
+put pdf whis wotermark near bot_watermark.py</br>
+put jpg-pdf-water.sh near bot_watermark.py</br>
+work algoritm of the bot:</br>
+user send pdf whis caption 1.pdf 3-5 where 1.pdf - name of the pdf watermark, 3-5 (optional param): slect pages: 1-5 or 1,3,5,7 (select pge #1 #3 #5 #7) or 1-4,8,9</br>
+bot find or not his id in list.txt</br>
+if not - then send Not</br>
+if yes go to make pdf</br>
+in answer bot  send: pdf whith watermark and jpg watermark</br>
+
+
+

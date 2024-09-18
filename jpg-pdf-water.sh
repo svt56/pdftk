@@ -53,5 +53,7 @@ if [[ -z "$3" ]]
       done
 fi
 #clear temp files
-#rm -f "_"$1
-#rm -f "cat_"$1
+mv $1 downloads/
+rm -f "_"$1
+rm -f "cat_"$1
+rm -f "_cat_"$1
